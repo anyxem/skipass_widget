@@ -1,0 +1,108 @@
+{
+  "gorkigorod": {
+    "period":{
+      "1": { "start": "2016-12-01" , "end": "2016-12-28" },
+      "2": { "start": "2017-01-09" , "end": "2017-05-20" },
+      "3": { "start": "2016-12-29" , "end": "2017-01-08" }
+    },
+    "tarif":{
+      "1": {
+        "name": "Экскурсионный «Верхний Город»",
+        "note": "Действует на один подъем с отм. + 540м до + 960м. С 9:00 до 22:30."
+      },
+      "2": {
+        "name": "Экскурсионный «Реликтовый лес»",
+        "note": "Действует на один экскурсионный подъем с отм. + 540м до + 1460м. С 9:00 до 17:30."
+      },
+      "3": {
+        "name": "Экскурсионный «Панорама»",
+        "note": "Действует на один экскурсионный подъем с отм. + 540м до + 2200м. С 9:00 до 17:00."
+      },
+      "4": {
+        "name": "Экскурсионный «Верхний Город – Панорамный»",
+        "note": "Действует на один экскурсионный подъем с отм. + 960м до + 2200м. С 9:00 до 17:00."
+      },
+      "5": {
+        "name": "Экскурсионный «Семейный»",
+        "note": "Действует на один экскурсионный подъем с отм. + 540м до + 2200м. С 9:00 до 17:00."
+      },
+      "6": {
+        "name": "Экскурсионный «Школьный»*",
+        "note": "Действует на один экскурсионный подъем с отм. + 540м до + 2200м. С 9:00 до 17:00."
+      },
+      "7": {
+        "name": "Экскурсионный «Вечерний»",
+        "note": "Действует на один подъем с отм. + 540м до + 1460м только в дни работы вечернего катания. С 18:00 до 22:30."
+      }
+    },
+    "category":{
+      "adult": {},
+      "child": {},
+      "preferent": {},
+      "family": {}
+    },
+    "price":[
+      { "amount": 300, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+      { "amount": 200, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+      { "amount": 200, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+
+      { "amount": 700, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+      { "amount": 550, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+      { "amount": 500, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+
+      { "amount": 1100,"period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+      { "amount": 700, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+      { "amount": 600, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+
+      { "amount": 900, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+      { "amount": 550, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+      { "amount": 550, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+
+      { "amount": 3200, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+
+      { "amount": 500, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+
+      { "amount": 700, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+      { "amount": 550, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" },
+      { "amount": 500, "period": [1,2], "tarif": 1, "category": "adult" },{ "amount": 300, "period": 3, "tarif": 1, "category": "adult" }
+    ]
+  },
+  "rosaski":{
+    "period":{
+
+    },
+    "tarif":{
+
+    },
+    "category":{
+
+    },
+    "price":[
+      {
+        "amount": 300,
+        "period": 1,
+        "tarif": 1,
+        "category": 1
+      }
+    ]
+  },
+  "gazprom":{
+    "period":{
+
+    },
+    "tarif":{
+
+    },
+    "category":{
+
+    },
+    "price":[
+      {
+        "amount": 300,
+        "period": 1,
+        "tarif": 1,
+        "category": 1
+      }
+    ]
+  }
+}
