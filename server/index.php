@@ -122,7 +122,8 @@ $app->get('/table/{date}', function (Silex\Application $app, $date) use ($data, 
         //isset($price_cell['Газпром'][$key_cat][$key]) ? $price_cell['Газпром'][$key_cat][$key] : '-'
         isset($price_cell['rosaski'][$key_cat][$key]) ? $price_cell['rosaski'][$key_cat][$key] : '-',
         isset($price_cell['gorkigorod'][$key_cat][$key]) ? $price_cell['gorkigorod'][$key_cat][$key] : '-',
-        isset($price_cell['gazprom'][$key_cat][$key]) ? $price_cell['gazprom'][$key_cat][$key] : '-'
+        isset($price_cell['gazprom'][$key_cat][$key]) ? $price_cell['gazprom'][$key_cat][$key] : '-',
+        isset($price_cell['rosgaz'][$key_cat][$key]) ? $price_cell['rosgaz'][$key_cat][$key] : '-'
       ];
     }
   }
@@ -214,7 +215,8 @@ $app->get('/table-2/{date}', function (Silex\Application $app, $date) use ($data
         //isset($price_cell['Газпром'][$key_cat][$key]) ? $price_cell['Газпром'][$key_cat][$key] : '-'
         isset($price_cell['rosaski'][$key_cat][$key]) ? $price_cell['rosaski'][$key_cat][$key] : '-',
         isset($price_cell['gorkygorod'][$key_cat][$key]) ? $price_cell['gorkigorod'][$key_cat][$key] : '-',
-        isset($price_cell['gazprom'][$key_cat][$key]) ? $price_cell['gzprom'][$key_cat][$key] : '-'
+        isset($price_cell['gazprom'][$key_cat][$key]) ? $price_cell['gzprom'][$key_cat][$key] : '-',
+        isset($price_cell['rosgaz'][$key_cat][$key]) ? $price_cell['rosgaz'][$key_cat][$key] : '-'
       ];
     }
   }
