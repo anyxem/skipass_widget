@@ -11,7 +11,7 @@
 
   var template = function(rows, tarifs, note){
     return '<div class="tarifs">'+tarifs+'</div>'+'<table class="table-bordered-auto">'+
-      '<thead><tr><th>Категория</th><th>Роза Хутор</th><th>Город Горки</th><th>ГТЦ Газпром</th><th>РозаХутор+Газпром</th></tr></thead>'+
+      '<thead><tr><th>Категория</th><th>Роза Хутор</th><th>Город Горки</th><th>ГТЦ Газпром</th><th>Роза Хутор+Газпром</th></tr></thead>'+
       '<tbody>'+
         rows +
       '</tbody>'+
