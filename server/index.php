@@ -278,7 +278,7 @@ $app->get('/widget/{date}', function (Silex\Application $app, $date) use ($data)
 */
     $tarif_day = 0;
     foreach($club_prices->tarif as $tarif_key => $tarif){
-      if( $tarif->acc == '2' ){
+      if( $tarif->acc == '1' ){
         $tarif_day = $tarif_key;
       }
     }
