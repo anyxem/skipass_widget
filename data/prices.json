@@ -4,7 +4,7 @@
       "1": { "start": "2018-12-01" , "end": "2018-12-28" },
       "2": { "start": "2018-12-29" , "end": "2019-01-07" },
       "3": { "start": "2019-01-08" , "end": "2019-04-07" },
-      "4": { "start": "2019-01-08" , "end": "2019-05-01" }
+      "4": { "start": "2019-04-08" , "end": "2019-05-01" }
     },
     "tarif":{
       "1": {"acc":3, "label": "Дневной" , "note": "-" },
@@ -511,160 +511,93 @@
   },
   "rosgaz":{
     "period":{
-      "0": { "start": "2016-12-24" , "end": "2017-04-30" },
-
-      "1": { "start": "2016-12-24" , "end": "2016-12-29", "days": [1,2,3,4] },
-      "2": { "start": "2017-01-07" , "end": "2017-02-22", "days": [1,2,3,4] },
-      "3": { "start": "2017-02-27" , "end": "2017-02-28", "days": [1,2,3,4] },
-
-      "4": { "start": "2016-12-24" , "end": "2016-12-29", "days": [5,6,7] },
-      "5": { "start": "2017-01-07" , "end": "2017-02-22", "days": [5,6,7] },
-      "6": { "start": "2017-02-27" , "end": "2017-02-28", "days": [5,6,7] },
-
-      "7": { "start": "2016-12-30" , "end": "2017-01-08" },
-      "8": { "start": "2017-02-23" , "end": "2017-02-26" },
-
-
-      "9": { "start": "2017-03-01" , "end": "2017-03-06", "days": [1,2,3,4] },
-      "10": { "start": "2017-03-09" , "end": "2017-04-30", "days": [1,2,3,4] },
-
-      "11": { "start": "2017-03-01" , "end": "2017-03-06", "days": [5,6,7] },
-      "12": { "start": "2017-03-09" , "end": "2017-04-30", "days": [5,6,7] },
-
-      "13": { "start": "2017-03-07" , "end": "2017-03-08" }
+      "1": { "start": "2018-12-01" , "end": "2018-12-28" },
+      "2": { "start": "2018-12-29" , "end": "2019-01-07" },
+      "3": { "start": "2019-01-08" , "end": "2019-04-07" },
+      "4": { "start": "2019-01-08" , "end": "2019-05-01" }
     },
     "tarif":{
-      "1": {"acc":1, "label": "Ски-пасс «Утренний»" , "note": "21" },
-      "2": {"acc":3, "label": "Ски-пасс «Полуденный»" , "note": "22" },
-      "3": {"acc":2, "label": "Ски-пасс «Дневной»" , "note": "23" },
-      "4": {"acc":4, "label": "Ски-пасс «Вечерний»" , "note": "24" },
-      "5": {"acc":5, "label": "Ски-пасс «Дневной + Вечерний»" , "note": "25" },
-      "6": {"acc":14, "label": "Абонемент «3 дня в сезоне»" , "note": "26" },
-      "7": {"acc":15, "label": "Абонемент «5 дней в сезоне»" , "note": "27" },
-      "8": {"acc":16, "label": "Абонемент «7 дней в сезоне»" , "note": "28" },
-      "9": {"acc":0, "label": "Сезонный абонемент «Весь сезон»" , "note": "29" },
-      "10": {"acc":17, "label": "Сезонный абонемент «Выходной сезон»" , "note": "30" },
-      "11": {"acc":18, "label": "Сезонный абонемент «Будний сезон»" , "note": "31" }
+      "1": {"acc":1, "label": "Дневной" , "note": "21" },
+      "2": {"acc":1, "label": "2 дня подряд" , "note": "21" },
+      "3": {"acc":1, "label": "3 дня подряд" , "note": "21" },
+      "4": {"acc":1, "label": "4 дня подряд" , "note": "21" },
+      "5": {"acc":1, "label": "5 дней подряд" , "note": "21" },
+      "6": {"acc":1, "label": "6 дней подряд" , "note": "21" },
+      "7": {"acc":1, "label": "7 дней подряд" , "note": "21" },
+      "8": {"acc":1, "label": "8 дней подряд" , "note": "21" },
     },
     "category":{
       "adult": [3,4,5],
-      "child": [1,2],
-      "student": [10],
-      "preferent": [6,7],
-      "family": [8]
+      "child": [1,2]
     },
     "price":[
+      { "amount": 3300, "period": 1, "tarif": 1, "category": "adult" },
+        { "amount": 3900, "period": 2, "tarif": 1, "category": "adult" },
+          { "amount": 3300, "period": 3, "tarif": 1, "category": "adult" },
+            { "amount": 2000, "period": 4, "tarif": 1, "category": "adult" },
+      { "amount": 1700, "period": 1, "tarif": 1, "category": "child" },
+        { "amount": 1900, "period": 2, "tarif": 1, "category": "child" },
+          { "amount": 1700, "period": 3, "tarif": 1, "category": "child" },
+            { "amount": 1000, "period": 4, "tarif": 1, "category": "child" },
 
-      { "amount": 1250, "period": 1000, "tarif": 0, "category": "adult" },
-      { "amount": 900, "period": 1000, "tarif": 0, "category": "child" },
+      { "amount": 5900, "period": 1, "tarif": 2, "category": "adult" },
+        { "amount": 6900, "period": 2, "tarif": 2, "category": "adult" },
+          { "amount": 5900, "period": 3, "tarif": 2, "category": "adult" },
+            { "amount": 3600, "period": 4, "tarif": 2, "category": "adult" },
+      { "amount": 3000, "period": 1, "tarif": 2, "category": "child" },
+        { "amount": 3500, "period": 2, "tarif": 2, "category": "child" },
+          { "amount": 3000, "period": 3, "tarif": 2, "category": "child" },
+            { "amount": 1800, "period": 4, "tarif": 2, "category": "child" },
 
+      { "amount": 8900, "period": 1, "tarif": 3, "category": "adult" },
+        { "amount": 10400, "period": 2, "tarif": 3, "category": "adult" },
+          { "amount": 8900, "period": 3, "tarif": 3, "category": "adult" },
+            { "amount": 5300, "period": 4, "tarif": 3, "category": "adult" },
+      { "amount": 4500, "period": 1, "tarif": 3, "category": "child" },
+        { "amount": 5300, "period": 2, "tarif": 3, "category": "child" },
+          { "amount": 4500, "period": 3, "tarif": 3, "category": "child" },
+            { "amount": 2700, "period": 4, "tarif": 3, "category": "child" },
 
-      { "amount": 1750, "period": 1000, "tarif": 0, "category": "adult" },
-      { "amount": 1250, "period": 1000, "tarif": 0, "category": "child" },
+      { "amount": 1150, "period": 1, "tarif": 4, "category": "adult" },
+        { "amount": 13400, "period": 2, "tarif": 4, "category": "adult" },
+          { "amount": 11500, "period": 3, "tarif": 4, "category": "adult" },
+            { "amount": 6800, "period": 4, "tarif": 4, "category": "adult" },
+      { "amount": 5800, "period": 1, "tarif": 4, "category": "child" },
+        { "amount": 6700, "period": 2, "tarif": 4, "category": "child" },
+          { "amount": 5800, "period": 3, "tarif": 4, "category": "child" },
+            { "amount": 3500, "period": 4, "tarif": 4, "category": "child" },
 
-      { "amount": 4150, "period": 1000, "tarif": 6, "category": "adult" },
-      { "amount": 2900, "period": 1000, "tarif": 6, "category": "child" },
+      { "amount": 13800, "period": 1, "tarif": 5, "category": "adult" },
+        { "amount": 16200, "period": 2, "tarif": 5, "category": "adult" },
+          { "amount": 13800, "period": 3, "tarif": 5, "category": "adult" },
+            { "amount": 8300, "period": 4, "tarif": 5, "category": "adult" },
+      { "amount": 6900, "period": 1, "tarif": 5, "category": "child" },
+        { "amount": 8200, "period": 2, "tarif": 5, "category": "child" },
+          { "amount": 6900, "period": 3, "tarif": 5, "category": "child" },
+            { "amount": 4200, "period": 4, "tarif": 5, "category": "child" },
 
-      { "amount": 6950, "period": 1000, "tarif": 7, "category": "adult" },
-      { "amount": 4850, "period": 1000, "tarif": 7, "category": "child" },
+      { "amount": 15900, "period": 1, "tarif": 6, "category": "adult" },
+        { "amount": 18700, "period": 2, "tarif": 6, "category": "adult" },
+          { "amount": 15900, "period": 3, "tarif": 6, "category": "adult" },
+            { "amount": 9500, "period": 4, "tarif": 6, "category": "adult" },
+      { "amount": 8000, "period": 1, "tarif": 6, "category": "child" },
+        { "amount": 9400, "period": 2, "tarif": 6, "category": "child" },
+          { "amount": 8000, "period": 3, "tarif": 6, "category": "child" },
+            { "amount": 4800, "period": 4, "tarif": 6, "category": "child" },
 
-      { "amount": 8650, "period": 1000, "tarif": 8, "category": "adult" },
-      { "amount": 6050, "period": 1000, "tarif": 8, "category": "child" },
+      { "amount": 18400, "period": 1, "tarif": 7, "category": "adult" },
+        { "amount": 21500, "period": 2, "tarif": 7, "category": "adult" },
+          { "amount": 18400, "period": 3, "tarif": 7, "category": "adult" },
+      { "amount": 9300, "period": 1, "tarif": 7, "category": "child" },
+        { "amount": 10800, "period": 2, "tarif": 7, "category": "child" },
+          { "amount": 9300, "period": 3, "tarif": 7, "category": "child" },
 
-      { "amount": 30950, "period": 1000, "tarif": 9, "category": "adult" },
-      { "amount": 15500, "period": 1000, "tarif": 9, "category": "child" },
-
-      { "amount": 20950, "period": 1000, "tarif": 10, "category": "adult" },
-      { "amount": 10500, "period": 1000, "tarif": 10, "category": "child" },
-
-      { "amount": 13600, "period": 1000, "tarif": 11, "category": "adult" },
-      { "amount": 6800, "period": 1000, "tarif": 11, "category": "child" },
-
-        { "amount": 1000, "period": [1,2,3], "tarif": 1, "category": "adult" },
-          { "amount": 1050, "period": [4,5,6], "tarif": 1, "category": "adult" },
-            { "amount": "-", "period": [7,8], "tarif": 1, "category": "adult" },
-        { "amount": 700, "period": [1,2,3], "tarif": 1, "category": "child" },
-          { "amount": 750, "period": [4,5,6], "tarif": 1, "category": "child" },
-            { "amount": "-", "period": [7,8], "tarif": 1, "category": "child" },
-
-        { "amount": 1100, "period": [1,2,3], "tarif": 2, "category": "adult" },
-          { "amount": 1150, "period": [4,5,6], "tarif": 2, "category": "adult" },
-            { "amount": "-", "period": [7,8], "tarif": 2, "category": "adult" },
-        { "amount": 800, "period": [1,2,3], "tarif": 2, "category": "child" },
-          { "amount": 850, "period": [4,5,6], "tarif": 2, "category": "child" },
-            { "amount": "-", "period": [7,8], "tarif": 2, "category": "child" },
-
-        { "amount": 1550, "period": [1,2,3], "tarif": 3, "category": "adult" },
-          { "amount": 1650, "period": [4,5,6], "tarif": 3, "category": "adult" },
-            { "amount": 2200, "period": [7,8], "tarif": 3, "category": "adult" },
-        { "amount": 1100, "period": [1,2,3], "tarif": 3, "category": "child" },
-          { "amount": 1150, "period": [4,5,6], "tarif": 3, "category": "child" },
-            { "amount": 1550, "period": [7,8], "tarif": 3, "category": "child" },
-        { "amount": 1100, "period": [1,2,3], "tarif": 3, "category": "preferent" },
-          { "amount": "-", "period": [4,5,6], "tarif": 3, "category": "preferent" },
-            { "amount": "-", "period": [7,8], "tarif": 3, "category": "preferent" },
-
-        { "amount": 1400, "period": [1,2,3], "tarif": 4, "category": "adult" },
-          { "amount": 1500, "period": [4,5,6], "tarif": 4, "category": "adult" },
-            { "amount": 2000, "period": [7,8], "tarif": 4, "category": "adult" },
-        { "amount": 1000, "period": [1,2,3], "tarif": 4, "category": "child" },
-          { "amount": 1050, "period": [4,5,6], "tarif": 4, "category": "child" },
-            { "amount": 1400, "period": [7,8], "tarif": 4, "category": "child" },
-        { "amount": 1000, "period": [1,2,3], "tarif": 4, "category": "preferent" },
-          { "amount": "-", "period": [4,5,6], "tarif": 4, "category": "preferent" },
-            { "amount": "-", "period": [7,8], "tarif": 4, "category": "preferent" },
-
-        { "amount": 2300, "period": [1,2,3], "tarif": 5, "category": "adult" },
-          { "amount": 2400, "period": [4,5,6], "tarif": 5, "category": "adult" },
-            { "amount": 3250, "period": [7,8], "tarif": 5, "category": "adult" },
-        { "amount": 1600, "period": [1,2,3], "tarif": 5, "category": "child" },
-          { "amount": 1700, "period": [4,5,6], "tarif": 5, "category": "child" },
-            { "amount": 2250, "period": [7,8], "tarif": 5, "category": "child" },
-
-
-
-        { "amount": 850, "period": [9,10], "tarif": 1, "category": "adult" },
-          { "amount": 950, "period": [11,12], "tarif": 1, "category": "adult" },
-            { "amount": "-", "period": [13], "tarif": 1, "category": "adult" },
-        { "amount": 600, "period": [9,10], "tarif": 1, "category": "child" },
-          { "amount": 700, "period": [11,12], "tarif": 1, "category": "child" },
-            { "amount": "-", "period": [13], "tarif": 1, "category": "child" },
-
-        { "amount": 950, "period": [9,10], "tarif": 2, "category": "adult" },
-          { "amount": 1050, "period": [11,12], "tarif": 2, "category": "adult" },
-            { "amount": "-", "period": [13], "tarif": 2, "category": "adult" },
-        { "amount": 700, "period": [9,10], "tarif": 2, "category": "child" },
-          { "amount": 750, "period": [11,12], "tarif": 2, "category": "child" },
-            { "amount": "-", "period": [13], "tarif": 2, "category": "child" },
-
-        { "amount": 1300, "period": [9,10], "tarif": 3, "category": "adult" },
-          { "amount": 1450, "period": [11,12], "tarif": 3, "category": "adult" },
-            { "amount": 2200, "period": [13], "tarif": 3, "category": "adult" },
-        { "amount": 950, "period": [9,10], "tarif": 3, "category": "child" },
-          { "amount": 1050, "period": [11,12], "tarif": 3, "category": "child" },
-            { "amount": 1550, "period": [13], "tarif": 3, "category": "child" },
-        { "amount": 950, "period": [9,10], "tarif": 3, "category": "preferent" },
-          { "amount": "-", "period": [11,12], "tarif": 3, "category": "preferent" },
-            { "amount": "-", "period": [13], "tarif": 3, "category": "preferent" },
-
-        { "amount": 1200, "period": [9,10], "tarif": 4, "category": "adult" },
-          { "amount": 1350, "period": [11,12], "tarif": 4, "category": "adult" },
-            { "amount": 2000, "period": [13], "tarif": 4, "category": "adult" },
-        { "amount": 850, "period": [9,10], "tarif": 4, "category": "child" },
-          { "amount": 950, "period": [11,12], "tarif": 4, "category": "child" },
-            { "amount": 1400, "period": [13], "tarif": 4, "category": "child" },
-        { "amount": 850, "period": [9,10], "tarif": 4, "category": "preferent" },
-          { "amount": "-", "period": [11,12], "tarif": 4, "category": "preferent" },
-            { "amount": "-", "period": [13], "tarif": 4, "category": "preferent" },
-
-        { "amount": 1950, "period": [9,10], "tarif": 5, "category": "adult" },
-          { "amount": 2200, "period": [11,12], "tarif": 5, "category": "adult" },
-            { "amount": 3250, "period": [13], "tarif": 5, "category": "adult" },
-        { "amount": 1350, "period": [9,10], "tarif": 5, "category": "child" },
-          { "amount": 1500, "period": [11,12], "tarif": 5, "category": "child" },
-            { "amount": 2250, "period": [13], "tarif": 5, "category": "child" }
-
-
+      { "amount": 21000, "period": 1, "tarif": 8, "category": "adult" },
+        { "amount": 24600, "period": 2, "tarif": 8, "category": "adult" },
+          { "amount": 21000, "period": 3, "tarif": 8, "category": "adult" },
+      { "amount": 10600, "period": 1, "tarif": 8, "category": "child" },
+        { "amount": 12400, "period": 2, "tarif": 8, "category": "child" },
+          { "amount": 10600, "period": 3, "tarif": 8, "category": "child" },
     ]
   }
    
