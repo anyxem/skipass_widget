@@ -56,7 +56,7 @@
 
       loadedPrice = JSON.parse(this.responseText);
       render(loadedPrice);
-      d.querySelector('.tarifs__button[data-id="2"] span').click();
+      d.querySelector('.tarifs__button[data-id="1"] span').click();
     }
   }
 
