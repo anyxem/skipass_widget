@@ -22,7 +22,8 @@
       "13": {"acc":22, "label": "6 дней из 8" , "note": "-" },
       "14": {"acc":26, "label": "7 дней из 9" , "note": "-" },
       "15": {"acc":28, "label": "8 дней из 11" , "note": "-" },
-      "16": {"acc":29, "label": "10 дней из 14" , "note": "-" }
+      "16": {"acc":29, "label": "10 дней из 14" , "note": "-" },
+      "17": {"acc":6,  "label": "Вечерний c доплатой" , "note": "доступен с января по март, доплата к действующему на дату катания скипассу" }
     },
     "category":{
       "adult": [3,4,5],
@@ -242,6 +243,16 @@
           { "amount": 22420, "period": 3, "tarif": 16, "category": "group" },
             { "amount":     0, "period": 4, "tarif": 16, "category": "group" }
 
+
+        { "amount": 700, "period": 2, "tarif": 17, "category": "adult" },
+          { "amount": 700, "period": 3, "tarif": 17, "category": "adult" },
+        { "amount": 350, "period": 2, "tarif": 17, "category": "child" },
+          { "amount": 350, "period": 3, "tarif": 17, "category": "child" },
+        { "amount": 1, "period": 2, "tarif": 17, "category": "preferent1" },
+          { "amount": 1, "period": 3, "tarif": 17, "category": "preferent1" },
+        { "amount": 350, "period": 2, "tarif": 17, "category": "preferent2" },
+          { "amount": 350, "period": 3, "tarif": 17, "category": "preferent2" },
+  
     ]
   },
   "gorkigorod": {
@@ -415,9 +426,9 @@
       "3": {"acc":4, "label": "Полдня" , "note": "23" },
       "4": {"acc":5, "label": "Вечерний" , "note": "24" },
       "5": {"acc":6, "label": "Дневной + Вечерний" , "note": "25" },
-      "6": {"acc":10, "label": "Абонемент «3 дня в сезоне»" , "note": "26" },
-      "7": {"acc":17, "label": "Абонемент «5 дней в сезоне»" , "note": "27" },
-      "8": {"acc":23, "label": "Абонемент «7 дней в сезоне»" , "note": "28" },
+      "6": {"acc":12, "label": "Абонемент «3 дня в сезоне»" , "note": "26" },
+      "7": {"acc":18, "label": "Абонемент «5 дней в сезоне»" , "note": "27" },
+      "8": {"acc":24, "label": "Абонемент «7 дней в сезоне»" , "note": "28" },
       "9": {"acc":30, "label": "Сезонный абонемент «Весь сезон»" , "note": "29" },
       "10": {"acc":0, "label": "Сезонный абонемент «Выходной сезон»" , "note": "30" },
       "11": {"acc":0, "label": "Сезонный абонемент «Будний сезон»" , "note": "31" }
