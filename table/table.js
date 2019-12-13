@@ -11,7 +11,7 @@
 
   var template = function(rows, tarifs, note){
     return '<div class="tarifs">'+tarifs+'</div>'+'<table class="table-bordered-auto">'+
-      '<thead><tr><th>Категория</th><th>Роза Хутор</th><th>Город Горки</th><th>ГТЦ Газпром</th><th>Роза Хутор+Газпром</th></tr></thead>'+
+      '<thead><tr><th>Категория</th><th>Роза Хутор</th><th>Красная поляна</th><th>ГТЦ Газпром</th><th>Единый</th></tr></thead>'+
       '<tbody>'+
         rows +
       '</tbody>'+
@@ -87,9 +87,9 @@
       var elNote = d.querySelector(selector + ' .note');
       elNote.innerHTML = '<h3>Примечание к тарифу</h3>'+
       (data.notes.rosaski ? '<h4>Роза Хутор</h4>' + data.notes.rosaski + '<br/><br/>' : '') +
-      (data.notes.gorkigorod ? '<h4>Город горки</h4>' + data.notes.gorkigorod + '<br/><br/>' : '') +
+      (data.notes.krasnajapoljana ? '<h4>Красная поляна</h4>' + data.notes.krasnajapoljana + '<br/><br/>' : '') +
       (data.notes.gazprom ? '<h4>ГТЦ Газпром</h4>' + data.notes.gazprom + '<br/><br/>' : '') +
-      (data.notes.rosgaz ? '<h4>Роза Хутор+Газпром</h4>' + data.notes.rosgaz + '<br/><br/>' : '');
+      (data.notes.jedinij ? '<h4>Единый</h4>' + data.notes.jedinij + '<br/><br/>' : '');
     }
   }
 
@@ -114,12 +114,12 @@
        var note = '<h3>Примечание тарифа</h3>'+
        (init_notes.rosaski ? '<strong>Роза Хутор</strong><br/>'+
        init_notes.rosaski+'<br/><br/>' : '')+
-       (init_notes.gorkigorod ? '<strong>Город горки</strong><br/>'+
-       init_notes.gorkigorod+'<br/><br/>' : '')+
+       (init_notes.krasnajapoljana ? '<strong>Красная поляна</strong><br/>'+
+       init_notes.krasnajapoljana+'<br/><br/>' : '')+
        (init_notes.gazprom ? '<strong>ГТЦ Газпром</strong><br/>'+
        init_notes.gazprom+'<br/><br/>' : '') +
-       (init_notes.rosgaz ? '<strong>Роза Хутор+Газпром</strong><br/>'+
-       init_notes.rosgaz+'<br/><br/>' : '');
+       (init_notes.jedinij ? '<strong>Единый</strong><br/>'+
+       init_notes.jedinij+'<br/><br/>' : '');
      }else{
        var note = '';
      }

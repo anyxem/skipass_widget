@@ -44,9 +44,9 @@
    			return '<tr>'+row.map(function(cell){
           cell = cell.toString();
           cell = cell.replace('rosaski', 'Роза Хутор');
-          cell = cell.replace('gorkigorod', 'Горки Город');
+          cell = cell.replace('krasnajapoljana', 'Красная поляна');
           cell = cell.replace('gazprom', 'Газпром');
-          cell = cell.replace('rosgaz', 'Роза Хутор+Газпром');
+          cell = cell.replace('jedinij', 'Единый');
    				return '<td>'+cell+'</td>';
    			}).join('')+'</tr>';
    		}).join('');
